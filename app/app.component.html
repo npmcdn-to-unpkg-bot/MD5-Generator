@@ -1,0 +1,6 @@
+<h1>MD5 Hash Generator</h1>
+<button (click)="hash()">HASH</button>
+<input type="text" [(ngModel)]="input">
+<div *ngFor="let hash of hashes">
+  <p>{{inputs[index]}}  {{hash}}</p>
+</div>
